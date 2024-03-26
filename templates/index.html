@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><h1> Rock Paper Scissor Game using python 3</h1></title>  
+  <link rel="stylesheet" href="/static/css/mystyle.css">
+</head>
+
+<body>
+  <div class="refresh">
+    <a href="/">click here to refresh</a>
+  </div>
+<center><h1>Simple Rock Paper Scissor game using Python 3</h1> </center>
+<p>Select your choice!</p>
+<div class = "buttons">
+  <form method="post" action = "/sample">
+    <button type="submit" name="button" value="1"> ROCK </button>
+    <button type="submit" name="button" value="2"> PAPER </button>
+    <button type="submit" name="button" value="3"> SCISSOR </button>
+  </form>
+</div>
+
+<div class= "texts">
+  <p>your choice is: {{choice_name}}</p>
+  <p>computer's choice is: {{choice_name2}}</p>
+  <p><h2>{{res}}</h2></p>
+</div>
+
+</body>
+</html>
